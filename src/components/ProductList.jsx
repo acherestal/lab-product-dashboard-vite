@@ -20,4 +20,3 @@ const ProductList = ({ products, onRemove }) => {
 };
 
 export default ProductList;
- 

@@ -22,6 +22,7 @@ const ProductCard = ({ product, onRemove }) => {
         )}
       </p>
 
+      {/* Required by test */}
       <button onClick={() => onRemove(product.id)}>Remove</button>
     </div>
   );
