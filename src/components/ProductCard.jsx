@@ -21,8 +21,6 @@ const ProductCard = ({ product, onRemove }) => {
           <span className={styles.outText}>Out of Stock</span>
         )}
       </p>
-
-      {/* Required by test */}
       <button onClick={() => onRemove(product.id)}>Remove</button>
     </div>
   );
